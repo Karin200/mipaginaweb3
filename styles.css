@@ -5,5 +5,11 @@ body{
     background-color: navajowhite
     }
     .content2{
-    background-color: olive;
-    }
+        background-color: rgb(178, 173, 255)
+        }
+        .content2:hover{
+            background-color: rgb(255, 173, 173); 
+            height: 400px; 
+            }
+    
+    
