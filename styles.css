@@ -1,15 +1,24 @@
 body{
     background: rgb(157, 147, 168);   
-   }
-    .content{
-    background-color: navajowhite
-    }
-    .content2{
-        background-color: rgb(178, 173, 255)
-        }
-        .content2:hover{
-            background-color: rgb(255, 173, 173); 
-            height: 400px; 
-            }
-    
+}
+.content{
+    background-color: navajowhite;
+    margin-top: 100px;
+}
+.content2{
+    background-color: rgb(178, 173, 255);
+    width: 100px; 
+    height: 100px;
+    transition: width 5s;
+    margin: 0 auto;
+    padding: 100px;
+    overflow: hidden; /*Es para que el texto no se salga de su div, no es necesario utilizar hidden cuando tengo un height al mismo tama;o del texto*/
+   /*scroll es un atributo para darle scroll al texto del div y se puede utilizar o hidden o scroll*/
+    border: 12px dotted black;
+}
+/*.content2:hover{
+    background-color: rgb(255, 173, 173); 
+    width: 600px; 
+    height:600px;
+}*/ /*al comentar este bloque automaticamente el navegador no lo lee*/ 
     
